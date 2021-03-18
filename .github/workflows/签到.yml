@@ -37,9 +37,9 @@ jobs:
  
         - name: Run 号码1
           env:
-           haoma: ${{ secrets.HAOMA }}
-           mm: ${{ secrets.MM }}
-           appid: ${{ secrets.APPID }}
+           haoma: 13048765434
+           mm: 138254
+           appid: 888b013579de2cc4ce68101ba2b34567891d489d604e58280e455a6c91e5058651acfb0f0b77029c2372659c319e02645b54c0acc367e692ab24a546b83c302d
           run: |
            bash CnUnicom.sh ${haoma} ${mm} ${appid}
            
